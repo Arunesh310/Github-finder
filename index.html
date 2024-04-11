@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Bootstrap Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark text-bg-dark">
+    <!-- Top Section -->
+    <header class="navbar navbar-dark p-3">
+      <div class="container">
+        <a href="/" class="navbar-brand">Github Finder</a>
+        <button id="mode-toggle-btn" class="btn btn-light">Dark Mode</button>
+      </div>
+    </header>
+
+    <!-- Form Section -->
+    <div class="container mt-4">
+      <div class="border p-3">
+        <h1>Search Github Username</h1>
+        <p>Enter a username to access user information</p>
+        <div class="d-flex gap-3">
+          <input id="search-input" class="form-control" type="text" />
+          <button id="search-btn" class="btn btn-primary btn-lg">Search</button>
+        </div>
+        <div id="alertDiv" class="alert" role="alert"></div>
+      </div>
+    </div>
+
+    <!-- User Information Section -->
+    <div id="profile" class="container p-4"></div>
+
+    <!-- User Repositories Section -->
+    <div id="repos" class="container p3"></div>
+
+    <!-- JavaScript Link -->
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
