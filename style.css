@@ -11,3 +11,11 @@ body #profile .row .col-md-9 ul li {
 body a {
   color: black !important;
 }
+
+.alert {
+  border: 2px solid #FFF3CD;
+  margin-top: 20px;
+  background-color: #FFF3CD;
+  color: red;
+}
+
